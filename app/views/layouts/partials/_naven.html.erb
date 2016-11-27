@@ -31,6 +31,9 @@
 <% if current_page?(url_for(:controller => 'fellows', :action => 'findexen')) %>
   <li><a href="/fellows" >French</a></li> 
 <% end %>
+
+<ul class="nav navbar-nav navbar-right">
+ <li><%= link_to "Admin",admin_root_path%></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
