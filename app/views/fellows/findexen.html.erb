@@ -1,0 +1,22 @@
+<% @fellows.in_groups_of(4, false).each do |group| %>
+<div class="row">
+
+<% group.each do |fellow| %>
+  <div class="col-sm-4 col-md-3">
+ 
+    <div class="thumbnail">
+     <img src="<%= fellow.link %>" width="260" height="260" class="GeneratedImage">
+      <div class="caption">
+        <h3><%= fellow.name %></h3>
+        <p><%= fellow.dateen %></p>
+        <p><%= fellow.descen %></p>
+      </div>
+    </div>
+  </div>
+
+<% end %>
+ 
+</div>
+
+
+<% end %>

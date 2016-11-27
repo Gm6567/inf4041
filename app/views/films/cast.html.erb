@@ -1,0 +1,14 @@
+<section id = "casting">
+   <% @film.episodes.each do |episode| %>
+ <div id = "titre"> <h3> Main actors of the movie "<%= episode.titleen %>" </h3> </div>
+ <% end %>
+
+ <% @film.castings.each do |casting| %>
+  <span id = "nom"> <h4><%= casting.noma %> </span> <span id = "nom"> <%= casting.nomb %> </span> <span id = "nom"> <%= casting.nomc %> </span></h4> 
+ <img src="<%= casting.linka %>" width="260" height="260" class="GeneratedImage">
+  <img src="<%= casting.linkb %>" width="260" height="260" class="GeneratedImage">
+  <img src="<%= casting.linkc %>" width="260" height="260" class="GeneratedImage">
+ <% end %>
+  
+  </section>
+

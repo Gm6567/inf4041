@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  noma: MyString
+  linka: MyString
+  nomb: MyString
+  linkb: MyString
+  nomc: MyString
+  linkc: MyString
+
+two:
+  noma: MyString
+  linka: MyString
+  nomb: MyString
+  linkb: MyString
+  nomc: MyString
+  linkc: MyString

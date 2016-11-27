@@ -1,0 +1,26 @@
+
+
+<% @films.in_groups_of(4, false).each do |group| %>
+<div class="row">
+
+<% group.each do |film| %>
+  <div class="col-sm-4 col-md-3">
+ 
+    <div class="thumbnail">
+     <img src="<%= film.link %>" width="260" height="260" class="GeneratedImage">
+      <div class="caption">
+        <h3><%= film.titleen %></h3>
+         <p><%= film.dateen %></p>
+        <p><%= film.descen %></p>
+    <p><a href= "/filmsen/<%=(film.slugen) %>" role="button"> See the trailer</a></p>
+    <p><a href= "cast/<%=(film.titleen) %>" role="button"> See the cast</a></p>
+      </div>
+    </div>
+  </div>
+
+<% end %>
+ 
+</div>
+
+
+<% end %>

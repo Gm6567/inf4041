@@ -1,0 +1,22 @@
+<section>
+  
+
+ <% @film.episodes.each do |episode| %>
+  <div id = "episodetitle"> <h3><%= episode.title %></h3> </div>
+ <div id = "video"> <p><%= episode.description %></p>
+  
+<iframe width="960" height="540" src="<%= episode.video_link %>" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <% end %>
+
+  </section>
+
+   
+
+
+
+
+
+
+
+
