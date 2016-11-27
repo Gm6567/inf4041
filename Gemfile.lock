@@ -92,6 +92,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.6.1)
+    mini_portile2 (2.1.0)
     minitest (5.9.1)
     momentjs-rails (2.15.1)
       railties (>= 3.1)
@@ -101,6 +102,7 @@ GEM
       thor (~> 0.19)
     nokogiri (1.6.7.2)
     normalize-rails (3.0.3)
+    pg (0.19.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -176,6 +178,8 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  mini_portile2 (~> 2.1)
+  pg
   rails (= 4.2.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
